@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!--
- A frontal cat face detector using the full set of Haar features, i.e.
+ A frontal dog face detector using the full set of Haar features, i.e.
  horizontal, vertical, and diagonal features.
 
  Contributed by Joseph Howse (josephhowse@nummist.com).
@@ -22,8 +22,8 @@
 
  KNOWN LIMITATIONS:
 
- An upright subject is assumed. In situations where the cat's face might be
- sideways or upside down (e.g. the cat is rolling over), try various rotations
+ An upright subject is assumed. In situations where the dog's face might be
+ sideways or upside down (e.g. the dog is rolling over), try various rotations
  of the input image.
 
  CHANGELOG:
@@ -88,7 +88,7 @@
     <maxDepth>1</maxDepth>
     <maxWeakCount>100</maxWeakCount></stageParams>
   <featureParams>
-    <maxCatCount>0</maxCatCount>
+    <maxDogCount>0</maxDogCount>
     <featSize>1</featSize>
     <mode>ALL</mode></featureParams>
   <stageNum>20</stageNum>
